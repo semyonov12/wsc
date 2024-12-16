@@ -1028,6 +1028,17 @@ body:not(.fp-responsive) .fp-overflow {
   border-radius: 0.9375rem;
   max-width: 27.3125rem;
   padding: 1.875rem;
+  position: relative;
+}
+
+.reviews-about::after {
+  content: "";
+  position: absolute;
+  right: 1.375rem;
+  top: -1.0625rem;
+  width: 3.125rem;
+  height: 2.625rem;
+  background: #15161c url("../img/reviews-about-decor.svg") center/1.625rem no-repeat;
 }
 
 .reviews-about__title {
@@ -1697,6 +1708,12 @@ body:not(.fp-responsive) .fp-overflow {
     margin-top: 0.0625rem;
   }
 
+  .reviews-about::after {
+    width: 2.5rem;
+    height: 2.1875rem;
+    background: #15161c url("../img/reviews-about-decor.svg") center/1.375rem no-repeat;
+  }
+
   .reviews-about {
     padding: 1.25rem;
   }
@@ -1942,6 +1959,12 @@ body:not(.fp-responsive) .fp-overflow {
     flex: 0 0 0.875rem;
     width: 0.875rem;
     height: 0.875rem;
+  }
+
+  .reviews-about::after {
+    width: 2.125rem;
+    height: 1.625rem;
+    background: #15161c url("../img/reviews-about-decor.svg") center/1rem no-repeat;
   }
 
   .reviews-about {
